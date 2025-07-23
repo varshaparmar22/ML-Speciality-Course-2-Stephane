@@ -87,6 +87,8 @@ val_acc => accuracy on unseen data <- to check overfitting check this it should 
 
 - if convergence issue than it is indicating problem with gradient loss - use Relu to solve it - specially if Network is complex already
 
+- convergence = 1. loss is not decresing, 2. gradient becomes very small, 3. weight/bias params not updating much
+
 - if outliers are in dataset we can use median values for imputation
 
 - labeling by ground truth incorporates both precision and speed as it provide automatic labeling by self learning algo and human reviewing
@@ -126,7 +128,7 @@ val_acc => accuracy on unseen data <- to check overfitting check this it should 
 - Access Advisor to check when service or resource last accessed and by whom
 
 - AWS Systems Manager Parameter Store - to store parameters like credential, licence key or configuration parameters
-
+__
 - AWS Secrets Manager - helps you manage, retrieve, and rotate database credentials, application credentials, OAuth tokens, API keys, and other secrets throughout their lifecycles. - built-in integration for MySQL, PostgreSQL, and Amazon Aurora on Amazon RDS
 
 - Hinge loss is related to support vector classifier, and it not specify probability - Hinge loss is also known as max-margin loss. 
